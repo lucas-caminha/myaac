@@ -87,8 +87,8 @@ $config = array(
 	),
 
 	// images
-	'outfit_images_url' => './outfit/animoutfit.php', // set to animoutfit.php for animated outfit
-	'item_images_url' => 'images/items/', // set to images/items if you host your own items in images folder
+	'outfit_images_url' => 'images/animated-items-and-outfits/animated-outfits/animoutfit.php', // set to animoutfit.php for animated outfit
+	'item_images_url' => 'images/animated-items-and-outfits/', // set to images/items if you host your own items in images folder
 
 	// account
 	'account_management' => true, // disable if you're using other method to manage users (fe. tfs account manager)
@@ -309,9 +309,6 @@ $config = array(
 	'status_bar' => true,
 	'client_link' => 'https://github.com/dudantas/tibia-client/releases/tag/13.21.13839', // link to download tibia client
 	'discord_link' => 'https://discord.com/invite/gvTj5sh9Mp', // link to join discord channel
-	'whatsapp_link' => '5511912345678', // wa.me/5511912345678
-	'instagram_link' => 'profile', // www.instagram.com/profile
-	'facebook_link' => 'page', // www.facebook.com/page
 	'collapse_status' => true,
 
 	// events

@@ -43,12 +43,3 @@
         color: #fff;
     }
 </style>
-<div class="discord">
-    <div class="discord_header">Discord</div>
-    <div class="discord_content">
-        <a href="<?php echo $config['discord_link']; ?>" target="new">
-            <button type="button" class="discord_button">Join Discord</button>
-        </a>
-    </div>
-    <div class="discord_bottom"></div>
-</div>
