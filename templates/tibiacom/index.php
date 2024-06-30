@@ -855,7 +855,5 @@ function getImageMenuRandom($menu): string
         return "/images/menu/icon-{$menu}.gif";
     }
 
-    // generate random number size of the array
-    $img = $images[$menu][rand(0, count($images[$menu]) - 1)];
-    return $menu !== 'bgs' ? "/images/menu/anim/{$img}" : "/images/header/bgs/{$img}";
+    return $menu !== 'bgs' ? "/images/menu/anim/{$img}" : "/images/header/bgs/01.jpg";
 }

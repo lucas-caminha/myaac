@@ -681,27 +681,6 @@ function template_footer()
     $ret .= generateLink(ADMIN_URL, 'Admin Panel', true);
   }
 
-  if ($config['visitors_counter']) {
-    global $visitors;
-    $amount = $visitors->getAmountVisitors();
-    $ret .=
-      '<br/>Currently there ' .
-      ($amount > 1 ? 'are' : 'is') .
-      ' ' .
-      $amount .
-      ' visitor' .
-      ($amount > 1 ? 's' : '') .
-      '. • ';
-  }
-
-  if ($config['views_counter']) {
-    $ret .= 'Page has been viewed ' . $views_counter . ' times. • ';
-  }
-
-  if (config('footer_show_load_time')) {
-    $ret .= 'Load time: ' . round(microtime(true) - START_TIME, 4) . ' seconds.';
-  }
-
   if (isset($config['footer'][0])) {
     $ret .= '<br/>' . $config['footer'];
   }
